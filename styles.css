@@ -1,8 +1,25 @@
+*{
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+}
+hr{
+    color: red;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.204);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+li{
+    font-size: 30px;
+}
 h1{ 
     color: rgb(159, 141, 6);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 470px;
-    
+    text-align: center;    
     
     
 }
@@ -13,4 +30,11 @@ h1{
 }
 a{
     padding-top: 71px;
+}
+.linkgomy{
+    padding-left: 500px;
+    
+}
+iframe{
+    margin-left: 70px   ;
 }
